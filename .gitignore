@@ -1,2 +1,3 @@
 Brewfile.lock.json
 symlinks/gh/.config/gh/hosts.yml
+symlinks/nvim/.config/nvim/plugged/
