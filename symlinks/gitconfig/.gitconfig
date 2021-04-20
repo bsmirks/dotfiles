@@ -1,0 +1,7 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+	name = b0s00dg
+	email = b0s00dg@homeoffice.wal-mart.com
+[credential]
+	helper = osxkeychain

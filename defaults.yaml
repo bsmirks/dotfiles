@@ -1,0 +1,7 @@
+NSGlobalDomain:
+
+  # disable top menu from being displayed in favor of Uebersicht
+  _HIHideMenuBar: true
+
+  # enable dark mode in osx
+  AppleInterfaceStyle: Dark
