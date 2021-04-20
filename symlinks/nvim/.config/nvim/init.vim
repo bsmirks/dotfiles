@@ -38,7 +38,7 @@ call plug#end()
 syntax on
 filetype plugin indent on
 
-" vim-go settings - https://github.com/fatih/vim-go
+" vim-go settings
 set autowrite
 
 autocmd FileType go nmap <leader>b  <Plug>(go-build)
@@ -49,7 +49,8 @@ let g:go_fmt_command = "goimports"
 
 " vim-snipmatee settings
 let g:snipMate = { 'snippet_version' : 1 }
-" vim-syntastic settings - https://github.com/vim-syntastic/syntastic
+
+" vim-syntastic settings
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
@@ -59,7 +60,7 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
-" markdown-preview settings - 
+" markdown-preview settings
 nmap <C-m> <Plug>MarkdownPreview
 
 " vimtex settings
