@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # clear out the target directory
 rm -rf ~/.zsh/*
