@@ -47,6 +47,8 @@ autocmd FileType go nmap <leader>t  <Plug>(go-test)
 
 let g:go_fmt_command = "goimports"
 
+" vim-snipmatee settings
+let g:snipMate = { 'snippet_version' : 1 }
 " vim-syntastic settings - https://github.com/vim-syntastic/syntastic
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
