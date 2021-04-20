@@ -23,7 +23,6 @@ brew "curl"
 brew "docker", link: false
 brew "libpng"
 brew "freetype"
-brew "gh"
 brew "jpeg"
 brew "libtiff"
 brew "pcre2"
