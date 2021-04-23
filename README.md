@@ -20,8 +20,7 @@ the installation and configuration of the packages, symlinks, and dotfiles
 within this repository. This section serves to enumerate what happenes when
 `zero setup` is run. This is what happens in order:
 
-1. Check for system and application updates via softwareupdate, brew, brew cask,
-and mas.
+1. Check for system/application updates via softwareupdate/brew/cask/mas.
 
 1. Install packages and applications via Homebrew Bundle.
 

@@ -25,6 +25,8 @@ cmd 'packadd paq-nvim'              -- load the package manager
 local paq = require('paq-nvim').paq -- a convenient alias
 paq {'savq/paq-nvim', opt = true}   -- paq-nvim manages itself
 
+-- https://github.com/neovim/nvim-lspconfig
+paq {'neovim/nvim-lspconfig'}
 -- https://github.com/vim-syntastic/syntastic
 paq {'scrooloose/syntastic'}
 -- https://github.com/lervag/vimtex
