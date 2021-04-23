@@ -48,9 +48,10 @@ paq {'tomtom/tlib_vim'}
 
 local indent = 2
 cmd 'colorscheme elflord'
-cmd 'set number'
 cmd 'syntax on'
 cmd 'filetype plugin indent on'
+opt('w', 'number', true)
+
 
 -------------------- VIMTEX --------------------------------
 
