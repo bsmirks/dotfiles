@@ -43,10 +43,6 @@ paq {'tpope/vim-fugitive'}
 paq {'rodjek/vim-puppet'}
 -- https://github.com/tpope/vim-sensible
 paq {'tpope/vim-sensible'}
--- https://github.com/garbas/vim-snipmate
-paq {'garbas/vim-snipmate'}
--- https://github.com/honza/vim-snippets
-paq {'honza/vim-snippets'}
 -- https://github.com/tomtom/tlib_vim
 paq {'tomtom/tlib_vim'}
 
@@ -58,21 +54,13 @@ cmd 'syntax on'
 cmd 'filetype plugin indent on'
 opt('w', 'number', true)
 
-
 -------------------- VIMTEX --------------------------------
 
--- cmd "let g:tex_flavor = 'latex'"
-g "tex_flavor = 'latex'"
+g['tex_flavor'] = 'latex'
 
 -------------------- VIM-AIRLINE-THEMES --------------------
 
--- cmd "let g:airline_theme='simple'"
-g "let g:airline_theme='simple'"
-
--------------------- VIM-SNIPMATE --------------------------
-
--- cmd "let g:snipMate = { 'snippet_version' : 1 }"
-g "let g:snipMate = { 'snippet_version' : 1 }"
+g['airline_theme'] = 'simple'
 
 -------------------- VIM-SYNTASTIC -------------------------
 
@@ -80,11 +68,7 @@ cmd 'set statusline+=%#warningmsg#'
 cmd 'set statusline+=%{SyntasticStatuslineFlag()}'
 cmd 'set statusline+=%*'
 
--- cmd 'let g:syntastic_always_populate_loc_list = 1'
-g 'syntastic_always_populate_loc_list = 1'
--- cmd 'let g:syntastic_auto_loc_list = 1'
-g 'syntastic_auto_loc_list = 1'
--- cmd 'let g:syntastic_check_on_open = 1'
-g 'syntastic_check_on_open = 1'
--- cmd 'let g:syntastic_check_on_wq = 0'
-g 'syntastic_check_on_wq = 0'
+g['syntastic_always_populate_loc_list'] = '1'
+g['syntastic_auto_loc_list'] = '1'
+g['syntastic_check_on_open'] = '1'
+g['syntastic_check_on_wq'] = '0'
