@@ -63,6 +63,10 @@ opt('w', 'number', true)
 
 cmd "let g:tex_flavor = 'latex'"
 
+-------------------- VIM-AIRLINE-THEMES --------------------
+
+cmd "let g:airline_theme='simple'"
+
 -------------------- VIM-SNIPMATE --------------------------
 
 cmd "let g:snipMate = { 'snippet_version' : 1 }"
