@@ -61,15 +61,18 @@ opt('w', 'number', true)
 
 -------------------- VIMTEX --------------------------------
 
-cmd "let g:tex_flavor = 'latex'"
+-- cmd "let g:tex_flavor = 'latex'"
+g "tex_flavor = 'latex'"
 
 -------------------- VIM-AIRLINE-THEMES --------------------
 
-cmd "let g:airline_theme='simple'"
+-- cmd "let g:airline_theme='simple'"
+g "let g:airline_theme='simple'"
 
 -------------------- VIM-SNIPMATE --------------------------
 
-cmd "let g:snipMate = { 'snippet_version' : 1 }"
+-- cmd "let g:snipMate = { 'snippet_version' : 1 }"
+g "let g:snipMate = { 'snippet_version' : 1 }"
 
 -------------------- VIM-SYNTASTIC -------------------------
 
@@ -77,7 +80,11 @@ cmd 'set statusline+=%#warningmsg#'
 cmd 'set statusline+=%{SyntasticStatuslineFlag()}'
 cmd 'set statusline+=%*'
 
-cmd 'let g:syntastic_always_populate_loc_list = 1'
-cmd 'let g:syntastic_auto_loc_list = 1'
-cmd 'let g:syntastic_check_on_open = 1'
-cmd 'let g:syntastic_check_on_wq = 0'
+-- cmd 'let g:syntastic_always_populate_loc_list = 1'
+g 'syntastic_always_populate_loc_list = 1'
+-- cmd 'let g:syntastic_auto_loc_list = 1'
+g 'syntastic_auto_loc_list = 1'
+-- cmd 'let g:syntastic_check_on_open = 1'
+g 'syntastic_check_on_open = 1'
+-- cmd 'let g:syntastic_check_on_wq = 0'
+g 'syntastic_check_on_wq = 0'
