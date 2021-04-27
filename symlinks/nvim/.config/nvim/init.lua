@@ -31,6 +31,10 @@ paq {'neovim/nvim-lspconfig'}
 paq {'scrooloose/syntastic'}
 -- https://github.com/lervag/vimtex
 paq {'lervag/vimtex'}
+-- https://github.com/vim-airline/vim-airline
+paq {'vim-airline/vim-airline'}
+-- https://github.com/vim-airline/vim-airline-themes
+paq {'vim-airline/vim-airline-themes'}
 -- https://github.com/MarcWeber/vim-addon-mw-utils
 paq {'MarcWeber/vim-addon-mw-utils'}
 -- https://github.com/tpope/vim-fugitive
