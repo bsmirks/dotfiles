@@ -66,6 +66,7 @@ brew "osx-cpu-temp"
 brew "pandoc"
 brew "pgbadger"
 brew "pyenv"
+brew "pyenv-virtualenv"
 brew "ruby-build"
 brew "rbenv"
 brew "redis", restart_service: true
