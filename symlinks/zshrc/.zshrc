@@ -3,6 +3,9 @@
 # ZSH prompt - https://starship.rs/
 eval "$(starship init zsh)"
 
+# auto activation of pyenv virtual envs
+eval "$(pyenv virtualenv-init -)"
+
 ###########
 # Plugins #
 ###########
