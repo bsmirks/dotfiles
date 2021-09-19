@@ -7,6 +7,17 @@ eval "$(starship init zsh)"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 
+# rbenv initialization
+eval "$(rbenv init -)"
+
+# maven requirement
+export M2_HOME="/Users/b0s00dg/apache-maven-3.8.1"
+PATH="${M2_HOME}/bin:${PATH}"
+export PATH
+
+# GEM_HOME - ruby stuff
+export GEM_HOME="$HOME/.gem"
+
 ###########
 # Plugins #
 ###########
@@ -53,7 +64,27 @@ proxy_off () {
 # Aliases #
 ###########
 
+alias fpm=".gem/gems/fpm-1.13.1/bin/fpm"
+alias hub='npx @hub/cli'
 alias ll='ls -lG'
 alias plugs="cat ~/.config/nvim/init.vim | grep 'Plug '"
 alias vim="nvim"
 alias vi="nvim"
+
+export NODE_EXTRA_CA_CERTS=~/walmart-root-ca.cer
+export SLEDGE_BIN=/Users/b0s00dg/.sledge/bin
+export PATH="${PATH}:${SLEDGE_BIN}"
+
+# NVM zsh initialize BEGIN - do not modify #
+export NVM_HOME="${HOME}/nvm"
+NVM_SH="${NVM_HOME}/bin/nvm.sh"
+if [ -s "${NVM_SH}" ]; then
+  export NVM_LINK="${HOME}/nvm/nodejs/bin"
+  export NVM_NODEJS_ORG_MIRROR="https://repository.walmart.com/content/repositories/nodejs/"
+  source "${NVM_SH}"
+else
+  unset NVM_HOME
+  NVM_ERROR="${NVM_SH} is not valid"
+fi
+unset NVM_SH
+# NVM zsh initialize END - do not modify #

@@ -37,8 +37,6 @@ paq {'vim-airline/vim-airline'}
 paq {'vim-airline/vim-airline-themes'}
 -- https://github.com/MarcWeber/vim-addon-mw-utils
 paq {'MarcWeber/vim-addon-mw-utils'}
--- https://github.com/tpope/vim-fugitive
-paq {'tpope/vim-fugitive'}
 -- https://github.com/rodjek/vim-puppet
 paq {'rodjek/vim-puppet'}
 -- https://github.com/tpope/vim-sensible
