@@ -4,3 +4,7 @@
 	email = b0s00dg@homeoffice.wal-mart.com
 [credential]
 	helper = osxkeychain
+[http]
+	proxy = sysproxy.wal-mart.com:8080
+[url "ssh://git@gecgithub01.walmart.com/"]
+	insteadOf = https://gecgithub01.walmart.com/
