@@ -64,7 +64,7 @@ proxy_off () {
 # Aliases #
 ###########
 
-alias fpm=".gem/gems/fpm-1.13.1/bin/fpm"
+#alias fpm=".gem/gems/fpm-1.13.1/bin/fpm"
 alias hub='npx @hub/cli'
 alias ll='ls -lG'
 alias plugs="cat ~/.config/nvim/init.vim | grep 'Plug '"
