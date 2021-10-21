@@ -28,7 +28,6 @@ brew "libidn2"
 brew "libssh2"
 brew "openldap"
 brew "curl"
-brew "docker", link: false
 brew "gnu-tar"
 brew "dpkg"
 brew "freetype"
