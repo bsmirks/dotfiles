@@ -7,8 +7,11 @@ eval "$(starship init zsh)"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 
-# rbenv initialization
+# rbenv - https://github.com/rbenv/rbenv
 eval "$(rbenv init -)"
+
+# thefuck - https://github.com/nvbn/thefuck
+eval $(thefuck --alias)
 
 # maven requirement
 export M2_HOME="/Users/b0s00dg/apache-maven-3.8.1"
