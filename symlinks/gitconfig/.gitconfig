@@ -1,0 +1,8 @@
+[includeIf "gitdir:~/git/personal/"]
+        path = ~/git/personal/.gitconfig-personal
+[includeIf "gitdir:~/git/work/"]
+	path = ~/git/work/.gitconfig-work
+[core]
+	editor = /usr/local/bin/nvim
+[init]
+	defaultBranch = main
