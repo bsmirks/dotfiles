@@ -21,28 +21,32 @@ end
 
 -------------------- PLUGINS -------------------------------
 
-cmd 'packadd paq-nvim'              -- load the package manager
-local paq = require('paq-nvim').paq -- a convenient alias
-paq {'savq/paq-nvim', opt = true}   -- paq-nvim manages itself
+local paq = require("paq") -- load module
 
--- https://github.com/neovim/nvim-lspconfig
-paq {'neovim/nvim-lspconfig'}
--- https://github.com/vim-syntastic/syntastic
-paq {'scrooloose/syntastic'}
--- https://github.com/lervag/vimtex
-paq {'lervag/vimtex'}
--- https://github.com/vim-airline/vim-airline
-paq {'vim-airline/vim-airline'}
--- https://github.com/vim-airline/vim-airline-themes
-paq {'vim-airline/vim-airline-themes'}
--- https://github.com/MarcWeber/vim-addon-mw-utils
-paq {'MarcWeber/vim-addon-mw-utils'}
--- https://github.com/rodjek/vim-puppet
-paq {'rodjek/vim-puppet'}
--- https://github.com/tpope/vim-sensible
-paq {'tpope/vim-sensible'}
--- https://github.com/tomtom/tlib_vim
-paq {'tomtom/tlib_vim'}
+require 'paq' {
+    -- https://github.com/savq/paq-nvim
+    "savq/paq-nvim"; -- paq managing itself
+    -- https://github.com/neovim/nvim-lspconfig
+    "neovim/nvim-lspconfig";
+    -- https://github.com/vim-syntastic/syntastic
+    "scrooloose/syntastic";
+    -- https://github.com/tomtom/tlib_vim
+    "tomtom/tlib_vim";
+    -- https://github.com/lervag/vimtex
+    "lervag/vimtex";
+    -- https://github.com/vim-airline/vim-airline
+    "vim-airline/vim-airline";
+    -- https://github.com/vim-airline/vim-airline-themes
+    "vim-airline/vim-airline-themes";
+    -- https://github.com/MarcWeber/vim-addon-mw-utils
+    "MarcWeber/vim-addon-mw-utils";
+    -- https://github.com/rodjek/vim-puppet
+    "rodjek/vim-puppet";
+    -- https://github.com/tpope/vim-sensible
+    "tpope/vim-sensible";
+    -- https://github.com/bsmirks/whid
+    "bsmirks/whid";
+}
 
 -------------------- OPTIONS -------------------------------
 
