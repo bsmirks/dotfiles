@@ -55,8 +55,6 @@ set.tabstop = 4
 set.softtabstop = 4
 set.shiftwidth = 4
 cmd 'colorscheme elflord'
-cmd 'syntax on'
-cmd 'filetype plugin indent on'
 opt('w', 'number', true)
 
 -------------------- VIMTEX --------------------------------
