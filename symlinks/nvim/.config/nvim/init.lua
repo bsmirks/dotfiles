@@ -7,6 +7,7 @@ local cmd = vim.cmd -- to execute Vim commands e.g. cmd('pwd')
 local fn = vim.fn   -- to call Vim functions e.g. fn.bufnr()
 local g = vim.g     -- a table to access global variables
 local scopes = {o = vim.o, b = vim.bo, w = vim.wo}
+local set = vim.opt -- set options
 
 local function opt(scope, key, value)
   scopes[scope][key] = value
@@ -50,7 +51,9 @@ require 'paq' {
 
 -------------------- OPTIONS -------------------------------
 
-local indent = 2
+set.tabstop = 4
+set.softtabstop = 4
+set.shiftwidth = 4
 cmd 'colorscheme elflord'
 cmd 'syntax on'
 cmd 'filetype plugin indent on'
