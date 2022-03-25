@@ -21,6 +21,9 @@ export PATH
 # GEM_HOME - ruby stuff
 export GEM_HOME="$HOME/.gem"
 
+# homebrew git token
+export HOMEBREW_GITHUB_API_TOKEN=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
+
 ###########
 # Plugins #
 ###########
@@ -90,3 +93,6 @@ else
 fi
 unset NVM_SH
 # NVM zsh initialize END - do not modify #
+#sledge:binary path
+export SLEDGE_BIN=/Users/b0s00dg/.sledge/bin
+export PATH="${PATH}:${SLEDGE_BIN}"
